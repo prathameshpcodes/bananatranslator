@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: black;
+  margin: 0;
+}
+
+:root {
+  --primary: #ffd90f;
+  --black: #333333;
+  --width-break: 600px;
+}
+
+nav {
+  background-color: var(--primary);
+  text-align: center;
+}
+
+nav span {
+  font-size: 3rem;
+  padding: 1rem;
+}
+nav img {
+  padding-left: 0.05em;
+  width: 60px;
+}
+lottie-player {
+  margin-left: auto;
+  margin-right: auto;
+}
+section {
+  margin: auto;
+  padding: 1rem;
+  max-width: var(--width-break);
+  text-align: center;
+}
+
+textarea {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  min-height: 20vh;
+  margin-top: 2rem;
+  font-size: large;
+  font-family: inherit;
+  padding: 0.5em 1em;
+  border-radius: 0.5rem;
+}
+
+button {
+  background-color: var(--primary);
+  border: none;
+  margin: 1rem 0rem;
+  padding: 1rem 2rem;
+  font-family: "Rubik", sans-serif;
+  font-size: large;
+  border-radius: 0.5rem;
+}
+
+#output {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  border: 1px solid var(--black);
+  padding: 1rem;
+  font-size: large;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--primary);
+  text-align: center;
+}
+
+footer div {
+  font-size: large;
+}
+
+footer p {
+  max-width: var(--width-break);
+  margin: auto;
+}
